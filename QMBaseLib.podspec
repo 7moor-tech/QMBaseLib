@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
   spec.pod_target_xcconfig = {'VALID_ARCHS'=>'armv7 x86_64 arm64'}
 
   spec.requires_arc = true
-  spec.dependency 'Qiniu', '~> 8.2.1'
+  spec.dependency 'Qiniu'
   spec.dependency 'FMDB', '~> 2.7.5'
   spec.dependency 'ZhugeioAnalytics'
 
