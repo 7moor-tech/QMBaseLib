@@ -59,4 +59,14 @@
                                success:(nullable void(^)(NSURLSessionDownloadTask *_Nullable task, id _Nullable responseObject))success
                                failure:(nullable void(^)(NSURLSessionDownloadTask * _Nullable task, NSError *_Nullable error))failure;
 
+/**
+ 创建一个PUT请求
+
+ @param URLString 路由路径
+ @param parameters 请求参数
+ @param success 请求成功回调
+ @param failure 请求失败回调
+ */
+- (void)putRequestWithUrlString:(NSString *_Nullable)URLString parameters:(nullable id)parameters progress:(nullable void (^)(float))progress success:(nullable void(^)(id _Nullable responseObject))success failure:(nullable void(^)(NSError * _Nullable error))failure;
+
 @end
