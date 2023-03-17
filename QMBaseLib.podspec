@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "QMBaseLib"
-  spec.version      = "0.4"
+  spec.version      = "0.5"
   spec.summary      = "QMBaseLib is sdk"
 
   spec.homepage     = "https://github.com/7moor-tech/QMBaseLib"
@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
   spec.pod_target_xcconfig = {'VALID_ARCHS'=>'armv7 x86_64 arm64'}
 
   spec.requires_arc = true
-  spec.dependency 'Qiniu', '~> 8.4.4'
+  spec.dependency 'Qiniu', '~> 8.5.0'
   spec.dependency 'FMDB', '~> 2.7.5'
 
 end
