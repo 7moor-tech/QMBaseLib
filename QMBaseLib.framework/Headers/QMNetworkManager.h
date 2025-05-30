@@ -19,15 +19,14 @@
 
 @property (nonatomic, strong) QMNetworkResponseSerializer * _Nullable responseSerialzer;
 
-+ (instancetype _Nullable )networkManger;
-
++ (instancetype _Nullable )networkManger:(nullable NSURL *)url;
 /**
  实例化方法
 
  @param url 网络请求地址
  @return 返回实例化对象
  */
-- (instancetype _Nullable )initWithBaseURL:(nullable NSURL *)url;
+//- (instancetype _Nullable )initWithBaseURL:(nullable NSURL *)url;
 
 /**
  创建一个POST请求
