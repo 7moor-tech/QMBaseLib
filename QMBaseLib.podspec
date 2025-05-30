@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "QMBaseLib"
-  spec.version      = "0.7"
+  spec.version      = "0.8"
   spec.summary      = "QMBaseLib is sdk"
 
   spec.homepage     = "https://github.com/7moor-tech/QMBaseLib"
@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
 
   spec.author       = { "RockALins" => "rockcodealin@163.com" }
 
-  spec.platform     = :ios,'9.0'
+  spec.platform     = :ios,'12.0'
 
   spec.source       = { :git => "https://github.com/7moor-tech/QMBaseLib.git", :tag => spec.version.to_s }
 
