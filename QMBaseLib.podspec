@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "QMBaseLib"
-  spec.version      = "0.8"
+  spec.version      = "0.9"
   spec.summary      = "QMBaseLib is sdk"
 
   spec.homepage     = "https://github.com/7moor-tech/QMBaseLib"
